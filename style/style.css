@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: auto;
+  border: 0.1rem solid grey;
+  height: 60vh;
+}
+
+.main h1 {
+  margin: 1rem;
+}
+
+.main .in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60%;
+  height: 40vh;
+}
+
+.main input {
+  outline: none;
+  padding: 0.3rem;
+}
+
+.main .btn {
+  height: 5vh;
+  width: 23%;
+  border: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main .btn:hover {
+  background: #d8d8d8;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  cursor: pointer;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 0.1rem solid grey;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  min-height: 25vh;
+  visibility: hidden;
+}
+
+.show .unit {
+  background: #e0e0e0;
+  font-size: 2rem;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.show .bill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #e0e0e0;
+  font-size: 2rem;
+  width: 100%;
+  margin: auto;
+}
+
+.head.active .show {
+  visibility: visible;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  border: 0.1rem solid grey;
+  height: 60vh;
+  h1 {
+    margin: 1rem;
+  }
+  .in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: 40vh;
+  }
+  input {
+    outline: none;
+    padding: 0.3rem;
+  }
+  .btn {
+    height: 5vh;
+    width: 23%;
+    border: none;
+    transition: all 0.5s ease;
+    &:hover {
+      background: rgb(216, 216, 216);
+      transform: scale(0.95);
+      cursor: pointer;
+    }
+  }
+}
+.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 0.1rem solid grey;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  min-height: 25vh;
+  visibility: hidden;
+  .unit {
+    background: rgb(224, 224, 224);
+    font-size: 2rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(224, 224, 224);
+    font-size: 2rem;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.head.active .show {
+  visibility: visible;
+}
